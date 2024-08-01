@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link rel="stylesheet" href="./portfolio.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./vendor/fontawesome-free-5.15.4-web/css/all.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="./vendor/animatecss/animate.min.css">
+  <!-- animate -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+  <!-- <style>
+    @media screen and (max-width:1029px) {
+      .navbar .navbar-nav a {
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 4px;
+        transition: border-radius 0s;
+        text-align: center;
+
+      }
+
+      #home .carousel-caption {
+        z-index: 2;
+        bottom: 150px
+      }
+
+      .carousel-caption h5 {
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+      }
+
+      .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+      }
+
+      #movie {
+        margin: 0 50px;
+        flex-wrap: wrap;
+      }
+
+      #movie h2 {
+        background-color: #000000;
+        color: white;
+        padding: 10px 0;
+      }
+
+      #movie .card img {
+        height: 300px;
+        width: 100%;
+      }
+
+      #movie .card .card-body {
+        text-align: center;
+
+
+      }
+
+      #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        margin-bottom: 30px;
+
+      }
+
+
+      #games .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        width: 200px;
+        margin-bottom: 30px;
+        left: 62px;
+      
+       
+
+
+
+      }
+
+      #Survey {
+        margin-top: 1720px;
+      }
+
+      .count .box-container .box {
+        background-color: black;
+        border-radius: 30px;
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+
+
+      }
+
+      .form-control {
+        margin-bottom: 10px;
+      }
+
+    }
+
+
+    @media screen and (max-width:600px) {
+      .navbar .navbar-nav a {
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 4px;
+        transition: border-radius 0s;
+        text-align: center;
+
+      }
+
+      #home .carousel-caption {
+        z-index: 2;
+        bottom: 150px
+      }
+
+      .carousel-caption h5 {
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+      }
+
+      .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+      }
+
+      #movie {
+        margin: 0 50px;
+        flex-wrap: wrap;
+      }
+
+      #movie h2 {
+        background-color: #000000;
+        color: white;
+        padding: 10px 0;
+      }
+
+      #movie .card img {
+        height: 300px;
+        width: 100%;
+      }
+
+      #movie .card .card-body {
+        text-align: center;
+
+
+      }
+
+      #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        margin-bottom: 30px;
+
+      }
+
+
+      #games .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        width: 200px;
+        margin-bottom: 30px;
+        left: 62px;
+      
+       
+
+
+
+      }
+
+      #Survey {
+        margin-top: 1720px;
+      }
+
+      .count .box-container .box {
+        background-color: black;
+        border-radius: 30px;
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+
+
+      }
+
+      .form-control {
+        margin-bottom: 10px;
+      }
+
+    }
+
+    @media screen and (max-width:375px) {
+
+      #home .carousel-caption {
+        z-index: 2;
+        bottom: 100px
+      }
+
+      .carousel-caption h5 {
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+      }
+
+      .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+      }
+
+     
+
+
+
+
+      /* #games .games-img{
+        height:50px;
+        width:50px
+      } */
+
+      #games .games-img .card p {
+        color: #000;
+        font-size: 15px;
+      }
+
+      #games .games-img .card p:hover {
+        color: #ffffff;
+
+      }
+
+      #games .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        width: 150px;
+        margin-bottom: 30px;
+        left: 28px;
+      
+       
+
+
+
+      }
+
+     
+
+      #games .games-img {
+        background-color: #fff;
+        top: 20px;
+        z-index: 1000;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        z-index: 1000;
+        position: absolute;
+        top: 550px;
+        /* right: 1px;
+        left: 1px;
+         */
+         margin: auto;
+
+
+      }
+
+      #Survey {
+        margin-top: 1850px;
+      }
+    }
+  </style> -->
+</head>
+
+<body id="body">
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./image/marvel logo.jpg" alt="" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 ms-auto mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#movie">Movie</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Survey">Survey</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#games">Games</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- nav -->
+  <!-- home -->
+
+  <section id="home">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="./image/avenger.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption">
+            <h5>Avenger Endgame</h5>
+            <p>Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the
+              Avengers.</p>
+            <a href="https://en.wikipedia.org/wiki/Avengers:_Endgame" class="btn btn-warning mt3">click here</a> 
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./image/infinity war.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption ">
+            <h5>Avenger infinity war</h5>
+            <p>Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the
+              Avengers.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Avengers:_Infinity_War" class="btn btn-warning mt3">click here</a>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./image/first class.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption ">
+            <h5>Avenger First Class</h5>
+            <p>Marvel's The Avengers or simply The Avengers, is a 2012 American superhero film based on the Marvel
+              Comics superhero team of the same name..</p>
+            <p><a href="https://en.wikipedia.org/wiki/Avenger" class="btn btn-warning mt3">click here</a></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- home -->
+  <!-- about -->
+  <section id="about">
+
+
+    <div class="container-fluid slideAnimationObject">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>About Marvel Studio</h2>
+          <h5>
+            Marvel Studios is an entertainment brand defined the stories and successes of our more than 8,000 incredible
+            characters like Iron Man, Thor, Black Panther and Captain America. Based at the Walt Disney Studios in
+            Burbank, California, Marvel Studios is one of the most successful movie studios in the world, today.
+
+          </h5>
+
+
+          <button class="btn btn-warning">Learn More</button>
+
+
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <img src="./image/bg photo.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- about -->
+
+
+  <!-- movie -->
+  <section id="movie">
+    <h2 style="text-align: center;" class="mb-5"><b>Movies</b></h2>
+    <div class="row mb-5 slideAnimationObject">
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/gardian.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gardian of the <br> Galaxy vol 3</h5>
+            
+
+            <a href="https://youtu.be/u3V5KDHRQvk" class="btn ">Click here</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card" >
+          <img src="./image/secret invension.jpg poster.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Secret <br> invision</h5>
+
+            <a href="https://youtu.be/qZVTkn2NjS0" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> In the multiverse of the madness</h5>
+
+            <a href="https://youtu.be/aWzlQ2N6qqg" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/blackpantherwakandaforever_lob_crd_06.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Panther <br> Wakanda Forever</h5>
+
+            <a href="https://youtu.be/_Z3QKkl1WyM" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="row mb-5 slideAnimationObject">
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/antmanandthewaspquantumania_lob_crd_03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ant man & the Wasp<br>Quantumania </h5>
+
+            <a href="https://youtu.be/ZlNFpri-Y40" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/thorloveandthunder_lob_crd_04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Thor <br> Love and Thunder</h5>
+
+            <a href="https://youtu.be/Go8nTmfrQd8" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/spider-mannowayhome_lob_crd_03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Spider Man <br> No Way Home</h5>
+
+            <a href="https://youtu.be/JfVOs4VSpmA" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" >
+          <img src="./image/deadpool3_lob_crd_01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Untitle Deadpool <br>Movie</h5>
+
+            <a href="https://youtu.be/gS_DnGxzkzM" class="btn ">Click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second row -->
+  </section>
+  <!-- movie -->
+
+  <!-- Games -->
+
+  <section id="games">
+    <h2 style="text-align: center;" class="mb-5"><b>Games</b></h2>
+    <img src="./image/game-bg.jpg" alt="" class="img">
+
+    <div class="games-img " >
+      <div class="row  slideAnimationObject">
+        <div class=" col-md-2">
+          <div class="card" >
+            <img src="./image/spider game.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvel Spider-Man 2 <br>oct 20,2023</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card" >
+            <img src="./image/moonnight.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvels Midnight Suns <br>2022</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card" >
+            <img src="./image/marvelsnap_lob_crd_01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvels Snap <br>2022 <br><br></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card" >
+            <img src="./image/marvelsguardiansofthegalaxy_lob_crd_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvels Gardian Of the Galaxy 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card" >
+            <img src="./image/futurerevolution_lob_crd_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvels Future Revolution <br>2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card" >
+            <img src="./image/marvelcontestofchampions_lob_crd_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Marvels Contest of <br> Champion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- Games -->
+
+  <!-- <Survey> -->
+  <section class="count " id="Survey">
+
+    <h2 class="text-center mb-5"><b>Survey</b></h2>
+    <div class="box-container slideAnimationObject">
+
+      <div class="box">
+
+        <i class="fas fa-user-plus"></i>
+        <div class="content">
+          <h3>32 M+</h3>
+          <p>follower</p>
+        </div>
+
+      </div>
+
+      <div class="box">
+
+        <i class="far fa-eye"></i>
+        <div class="content">
+          <h3>69.8 M+</h3>
+          <p>View</p>
+        </div>
+
+      </div>
+
+
+
+      <div class="box">
+
+        <i class="fas fa-smile-wink"></i>
+        <div class="content">
+          <h3>100%</h3>
+          <p>satisfaction</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- <Survey> -->
+
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="text-center" style="color: white;background-color: black;padding: 10px 0;">Contact</h2>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Chicago, US</p>
+          <p><i class="fas fa-phone"></i>&nbsp;&nbsp;+00 1515151515</p>
+          <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;mymail@gmail.com</p>
+        </div>
+        <div class="col-md-7 slideAnimationObject">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="name">
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-12">
+              <button class="btn">send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+
+  <!-- <footer></footer> -->
+
+  <div id="footer" class="container-fluid text-center">
+    <a href="#body">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <p>Develop By &nbsp;<a href="https://www.marvel.com/movies">MARVEL STUDIO</a></p>
+  </div>
+
+
+
+
+
+
+  <script src="./vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/jquary/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      $('.nav-item a').click((event) => {
+        let navItem = $(event.currentTarget);
+        $('.nav-item a').removeClass('active')
+        navItem.addClass('active')
+      });
+
+      $(window).scroll(() => {
+
+        let winTop = $(window).scrollTop();
+        let animationObjects = $('.slideAnimationObject');
+        // console.log('hello');
+
+
+        // let globe = $(animationObjects[0]);
+        // let globeTopPosition = globe.offset().top;
+
+        // if(winTop + 700 > globeTopPosition){
+        //   globe.addClass('slide')
+        // }
+        animationObjects.each(function (index, element) {
+
+
+          let animationObject = $(element)
+          let animationObjectTopPosition = animationObject.offset().top;
+          // console.log(winTop + 700 , animationObjectTopPosition , (winTop+700)> animationObjectTopPosition);
+
+
+          if (winTop + 700 > animationObjectTopPosition) {
+            animationObject.addClass('slide')
+          }
+        });
+        console.log('----------------');
+
+
+
+      });
+
+
+    });
+  </script>
+</body>
+
+</html>

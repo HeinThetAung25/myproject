@@ -1,0 +1,751 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+
+    margin-bottom: 100px;
+
+}
+
+/* navbar */
+.navbar .navbar-nav a {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-left: 4px;
+    transition: border-radius 0s;
+    /* text-align: center; */
+
+}
+
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a.active {
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.navbar .navbar-toggler {
+    background-color: white;
+}
+
+/* navbar */
+
+
+
+/* carousel */
+
+.c-img {
+    height: 900px;
+}
+
+.c-item {
+    height: 100vh;
+    /* min-height: 300px; */
+    /* object-fit: cover; */
+    /* filter: brightness(0.7);
+    z-index: -1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#home .carousel-caption {
+    z-index: 1;
+    bottom: 200px;
+
+
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+
+    /* top: 50%; */
+    /* left: 50%; */
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+/* carousel */
+
+
+
+
+/* about */
+
+
+/* #about{
+    background-color: #343333;
+    border-radius: 40px;
+  
+} */
+
+
+
+#about .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* gap: ; */
+    padding: 30px 50px;
+
+
+}
+
+#about .row h2 {
+    display: inline;
+    background-color: #5e5e5e;
+    color: white;
+    padding: 4px 4px;
+    line-height: 3;
+    box-shadow: 0 0 8px black;
+
+}
+
+#about .row h5 {
+    word-spacing: 1px;
+    line-height: 1.9;
+}
+
+
+
+
+#about .row img {
+    width: 100%;
+    height: 500px;
+
+}
+
+
+/* about */
+
+
+/* movie */
+
+#movie {
+    margin: 0 50px;
+    flex-wrap: wrap;
+}
+
+
+#movie h2 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+}
+
+#movie h5{
+    font-size: 18px;
+}
+
+#movie .card img {
+    height: 300px;
+    width: 100%;
+}
+
+#movie .card .card-body {
+    text-align: center;
+
+}
+
+#movie .card {
+    box-shadow: 0 0 5px black;
+    transition: background-color 1s;
+    margin: auto;
+    width:250px;
+    
+
+}
+
+#movie .card:hover {
+    top: 6px;
+    background-color: #000;
+    color: white;
+}
+
+#movie .card .card-body .btn {
+    background-color: orange;
+}
+
+#movie .card .card-body .btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* movie */
+
+/* game */
+
+#games .img {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+#games {
+    position: relative;
+    margin-top: 150px;
+}
+
+#games h2 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+}
+
+#games .card img {
+    height: 150px;
+    width: 100%;
+}
+
+#games .games-img .row {
+    padding: 20px;
+}
+
+#games .row {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#games .games-img {
+    background-color: #fff;
+    top: 20px;
+    z-index: 1000;
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 1000;
+    position: absolute;
+    top: 550px;
+
+}
+
+#games .games-img .card p {
+    color: #000;
+    /* font-size: 10px; */
+}
+
+#games .games-img .card p:hover {
+    color: #ffffff;
+
+}
+
+#games .card {
+    box-shadow: 0 0 5px black;
+    transition: background-color 1s;
+    /* width:120px;
+    height: 240px; */
+}
+
+#games .card:hover {
+    top: 6px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* game */
+
+
+/* survey */
+
+.count .box-container {
+
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fix,minmax(27rem,1fr));
+    gap: 1.5rem;
+    align-items: flex-start; */
+    justify-content: center;
+    /* margin-left: 1rem; */
+    flex-wrap: wrap;
+}
+
+
+#Survey {
+    margin-top: 300px;
+}
+
+.count .box-container .box {
+    background-color: black;
+    border-radius: 30px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-left: 48px;
+    margin-bottom: 10px;
+
+
+}
+
+.count .box-container .box i {
+    font-size: 40px;
+    color: white;
+}
+
+
+.count .box-container .box .content h3 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.count .box-container .box .content p {
+    font-size: 1.6rem;
+    color: white;
+}
+
+/* survey */
+
+
+
+
+#contact {
+    margin-top: 100px;
+}
+
+#contact .container-fluid {
+    /* background-color: #000000; */
+    background-image: url(./image/red\ and\ black.jpg);
+    padding: 50px 50px 20px 50px;
+    box-shadow: 0 0 5px black;
+}
+
+#contact .container-fluid,
+.row p {
+    color: #fff;
+}
+
+
+#contact .container-fluid .btn {
+    background-color: #fff;
+    color: #000;
+}
+
+#contact .container-fluid .btn:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer p a {
+    text-decoration: 40px;
+    color: #000;
+}
+
+#footer i {
+    font-size: 40px;
+    color: #000;
+}
+
+
+
+
+
+.slideAnimationObject {
+    visibility: hidden;
+}
+
+
+.slide {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slideDown {
+
+
+    0% {
+        opacity: 0;
+        transform: translateX(-70%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+
+
+
+/* .section-padding {
+    padding: 100px 0;
+} */
+
+/* .carousel-item {
+   
+    min-height: 300px;
+} */
+
+/* .carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+} */
+
+/* .movie{
+    padding: 0px 70px;
+}
+
+.movie .m {
+    width: 400px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.m img {
+
+    width: 100%;
+    height: 300px;
+}
+
+.m p {
+    padding-top:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.m a{
+    display: block;
+    margin: auto;
+    width: 70px;
+}
+
+.movie .btn{
+    background-color: rgb(15, 15, 13);
+    color: white;
+}
+.movie .btn:hover{
+    background-color: blue;
+    color: aqua;
+}  */
+
+/* #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: #020202;
+    text-align: center;
+    background-image: url(./image/avenger.jpg);
+    background-repeat: no-repeat;
+      
+} */
+
+/* #home h1 {
+    padding: 3px 7px;
+    color: red ;
+    background-color: white;
+}
+
+#home span{
+    padding: 2px 3px;
+color: white;
+background-color: #000;
+} */
+
+
+@media screen and (max-width:1030px){
+
+    #movie h5{
+        font-size: 16px;
+    }
+
+    #movie .card img {
+        height: 250px;
+        width: 100%;
+    }
+
+
+    #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        width: 200px;
+        height: 380px;
+        
+    
+    }
+
+    #games .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        width:120px;
+        height: 240px;
+    }
+
+    #games .games-img .card p {
+        color: #000;
+        font-size: 11px;
+    }
+    
+    #games .games-img .card p:hover {
+        color: #ffffff;
+    
+    }
+
+    #games .row {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:990px) {
+    .navbar .navbar-nav a {
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 4px;
+        transition: border-radius 0s;
+        text-align: center;
+
+    }
+
+    #games .row {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+
+    /* .carousel-caption {
+        bottom: 125px;
+    } */
+
+    /* .carousel-caption h5 {
+        padding: 10px 15px;
+        font-size: 17px;
+    } */
+
+    /* .carousel-caption a {
+        padding: 10px 15px;
+
+    } */
+
+    /* .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    } */
+}
+
+
+@media screen and (max-width:940px){
+    #movie h5{
+        font-size: 16px;
+    }
+
+    #movie .card img {
+        height: 250px;
+        width: 100%;
+    }
+
+
+    #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        width: 180px;
+        height: 380px;
+        transition: width 0.5s;
+        
+    
+    }
+
+
+
+    #games .row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    
+}
+
+@media screen and (max-width:840px){
+    #movie h5{
+        font-size: 15px;
+        transition: font-size 0.5s;
+    }
+
+    #movie .card img {
+        height: 230px;
+        width: 100%;
+    }
+
+
+    #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        width: 180px;
+        height: 350px;
+        transition: width 0.5s;
+        transition: height 0.5s;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .carousel-caption h5 {
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    
+        /* top: 50%; */
+        /* left: 50%; */
+    }
+    
+    .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+
+    #movie h5{
+        font-size: 15px;
+        transition: font-size 0.5s;
+    }
+
+    #movie .card img {
+        height: 230px;
+        width: 100%;
+    }
+
+
+    #movie .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        margin: auto;
+        width: 180px;
+        height: 350px;
+        transition: width 0.5s;
+        transition: height 0.5s;
+
+        
+    
+    }
+
+    .col-md-3{
+        margin-bottom: 30px;
+    }
+
+    /* forgame */
+
+    .col-md-2{
+       display: flex;
+       justify-content: center;
+       
+       
+    }
+
+    #games .card {
+        box-shadow: 0 0 5px black;
+        transition: background-color 1s;
+        /* width:120px;
+        height: 240px; */
+        margin-bottom: 20px;
+    }
+    
+    #games .card:hover {
+        top: 6px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    #games {
+        margin-bottom: 1600px;
+    }
+
+
+}
+
+
+@media screen and (max-width:586px){
+    .carousel-caption h5 {
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    
+        /* top: 50%; */
+        /* left: 50%; */
+    }
+    
+    .carousel-caption p {
+        width: 60%;
+        margin: auto;
+        font-size: 1px;
+        line-height: 1.9;
+        margin-bottom: 20px;
+    }
+}
